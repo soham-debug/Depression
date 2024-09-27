@@ -20,4 +20,5 @@ d)	Keyword Extraction: - Important words like "awesome," "stressed," "hopeless" 
 Then after extracting the keywords sentiment analysis is used to classify the negative and positive words and a neutral.
 To determine whether a user is depressed, we use Long Short-Term Memory (LSTM) networks combined with the Swish activation function. 
 LSTM reads a sequence of posts from a user, one after the other, and tries to understand how the user’s mood is changing over time. The LSTM is really good at remembering past information, so it can connect what was said in earlier posts with what is being said now.
-The Swish activation function is like a booster for the LSTM. It helps the LSTM better understand and learn the patterns in the posts. Swish makes the LSTM more sensitive to small changes in the posts, which helps it pick up on subtle shifts in mood that might indicate a growing problem, like increasing stress or depression.
+The Swish activation function is like a booster for the LSTM. It helps the LSTM better understand and learn the patterns in the posts. Swish makes the LSTM more sensitive to small changes in the posts, which helps it pick up on subtle shifts in mood that might indicate a growing problem, like increasing stress or depression. 
+If the user predicted as depressed user then we give precautions to the user to overcome this depression.
